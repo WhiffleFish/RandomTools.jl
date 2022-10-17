@@ -1,9 +1,5 @@
-# _path = "/Users/tyler/Downloads/manifest_usage.toml"
-
 const PATH_RE = r"^\[\[\".*\"\]\]$"
 const DATE_RE = r"time = \d{4}-\d\d-\d\dT\d\d:\d\d:\d\d\.\d\d\dZ"
-
-# match(path_re, "[[\"$path\"]]")
 
 function check_manifest(path)
     @assert isfile(path)
@@ -33,4 +29,6 @@ function check_manifest(path)
     println("No errors")
 end
 
+# _path = "/Users/tyler/Downloads/manifest_usage.toml"
+# match(path_re, "[[\"$path\"]]")
 # check_manifest(_path)
