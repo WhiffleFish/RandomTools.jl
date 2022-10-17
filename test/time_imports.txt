@@ -1,0 +1,52 @@
+19.5 ms  Unzip
+106.2 ms  RecipesBase
+480.3 ms  PlotUtils
+25.9 ms  PlotThemes
+173.4 ms  RecipesPipeline
+ 0.9 ms  UnicodeFun
+ 0.1 ms  Showoff
+ 0.9 ms  FriBidi_jll
+ 0.3 ms  Libffi_jll
+ 1.1 ms  Gettext_jll
+ 0.8 ms  PCRE2_jll
+ 4.6 ms  Glib_jll
+ 0.4 ms  Pixman_jll
+ 0.3 ms  libpng_jll
+ 0.1 ms  Libuuid_jll
+ 0.3 ms  Expat_jll
+ 2.9 ms  Fontconfig_jll 72.18% compilation time
+ 0.4 ms  LZO_jll
+ 1.1 ms  Cairo_jll
+ 0.3 ms  Graphite2_jll
+ 0.9 ms  HarfBuzz_jll
+ 0.7 ms  libass_jll
+ 0.5 ms  libfdk_aac_jll
+ 0.5 ms  LAME_jll
+ 0.5 ms  Ogg_jll
+ 0.6 ms  libvorbis_jll
+ 0.6 ms  libaom_jll
+ 0.4 ms  x264_jll
+ 0.6 ms  x265_jll
+ 1.1 ms  OpenSSL_jll
+ 0.3 ms  Opus_jll
+ 6.5 ms  FFMPEG_jll
+ 0.2 ms  FFMPEG
+ 0.1 ms  Scratch
+ 0.5 ms  RelocatableFolders
+ 0.6 ms  GLFW_jll
+ 0.5 ms  JpegTurbo_jll
+ 0.6 ms  LERC_jll
+ 0.4 ms  Zstd_jll
+ 0.7 ms  Libtiff_jll
+ 0.1 ms  Xorg_libXext_jll
+ 0.1 ms  Xorg_libxcb_jll
+ 0.1 ms  Xorg_xcb_util_wm_jll
+ 0.1 ms  Xorg_xcb_util_image_jll
+ 0.0 ms  Xorg_xcb_util_keysyms_jll
+ 0.1 ms  Xorg_xcb_util_renderutil_jll
+ 0.1 ms  xkbcommon_jll
+ 0.0 ms  Libglvnd_jll
+ 9.4 ms  Qt5Base_jll
+ 2.2 ms  GR_jll
+265.1 ms  GR 8.26% compilation time
+3084.5 ms  Plots 28.44% compilation time (44% recompilation)
