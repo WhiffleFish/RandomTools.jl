@@ -13,14 +13,22 @@ macro store_timed_imports(ex)
         close(wr)
         s = read(rd, String)
         final_str = process_io_str(s)
-        println(final_str)
+        pretty_csv_print(final_str)
         fname = abspath(joinpath(pwd(), "$($pkgname)_timed_imports.csv"))
         open(fname, "w") do f
             write(f, final_str)
         end
+        nothing
     end
 end
 
+function pretty_csv_print(csv_str)
+    lines = split(csv_str, '\n')
+    for line ∈ lines
+        println(replace(line, "," =>"\t"))
+    end
+    nothing
+end
 
 function path2csv(path::AbstractString)
     split_path = split(path, '.')
@@ -59,7 +67,3 @@ function process_timed_imports(in_path::AbstractString, out_path=path2csv(in_pat
         write(f, final_str)
     end
 end
-
-# _path = abspath(joinpath(@__DIR__, "..", "test", "time_imports.txt"))
-# isfile(_path)
-# process_timed_imports(_path)
